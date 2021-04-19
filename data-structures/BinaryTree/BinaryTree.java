@@ -116,7 +116,6 @@ public class BinaryTree<T> {
         System.out.println("Size="+tree.size());
         System.out.println("Left View = "+leftView);
     }
-
     private int size() {
         return this.size;
     }
