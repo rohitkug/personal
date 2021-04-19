@@ -16,7 +16,7 @@ public class MyStack<T> {
 
     public T pop() {
         /* remove from first position */
-        if(stack.size()==0) throw new EmptyStackException();
+        if(isEmpty()) throw new EmptyStackException();
         return stack.remove(0);
     }
 
@@ -29,7 +29,7 @@ public class MyStack<T> {
     }
 
     public T peek() {
-        if(stack.size()==0) throw new EmptyStackException();
+        if(isEmpty()) throw new EmptyStackException();
         return stack.get(0);
     }
 
