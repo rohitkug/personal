@@ -12,6 +12,8 @@ public class CoinChange {
             5
             4
             5
+            4
+            5
             5
             1
             15685693751
